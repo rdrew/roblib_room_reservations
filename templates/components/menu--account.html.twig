@@ -49,30 +49,30 @@ We call a macro which calls itself to render the full tree.
             {% if item.url.routeName == '<front>' %}
 
             <a href="{{item.url}}">
-                {% include '@d8vre/components/utilities/icon.twig' with { icon: 'home' } %}
+                {% include '@rooms/components/utilities/icon.twig' with { icon: 'home' } %}
             </a>
 
         {#user logout#}
             {% elseif item.url.routeName == 'user.login' %}
             <a href="{{item.url}}">
-                {% include '@d8vre/components/utilities/icon.twig' with { icon: 'sign-out' } %}
+                {% include '@rooms/components/utilities/icon.twig' with { icon: 'sign-out' } %}
             </a>
         {#user logout#}
             {% elseif item.url.routeName == 'user.logout' %}
             <a href="{{item.url}}">
-                {% include '@d8vre/components/utilities/icon.twig' with { icon: 'sign-out' } %}
+                {% include '@rooms/components/utilities/icon.twig' with { icon: 'sign-out' } %}
             </a>
 
         {#contact#}
             {% elseif item.url.routeName == 'contact.site_page' %}
             <a href="{{item.url}}">
-                {% include '@d8vre/components/utilities/icon.twig' with { icon: 'envelope' } %}
+                {% include '@rooms/components/utilities/icon.twig' with { icon: 'envelope' } %}
             </a>
 
         {#user login}
             {% elseif item.title.string == 'Log in' %}
             <a href="{{item.url}}">
-                {% include '@d8vre/components/utilities/icon.twig' with { icon: 'sign-in' } %}
+                {% include '@rooms/components/utilities/icon.twig' with { icon: 'sign-in' } %}
             </a>
         {#user account#}
             {% elseif item.url.routeName == 'user.page' %}

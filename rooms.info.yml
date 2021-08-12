@@ -1,4 +1,4 @@
-name: d8vre
+name: rooms
 type: theme
 description: 'Drupal 8 Theme upei vre'
 version: 1.0
@@ -6,8 +6,8 @@ core_version_requirement: ^8 || ^9
 base theme: stable
 
 libraries:
-    - d8vre/global
-    - d8vre/fonts
+    - rooms/global
+    - rooms/fonts
 
 component-libraries:
     components:

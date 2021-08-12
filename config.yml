@@ -1,6 +1,6 @@
-PROXY: "https://family.researchspaces.ca"
+PROXY: "http://d9test.researchspaces.ca/"
 LOCALPROXY: "arma.dev"
-THEMENAME: "d8vre"
+THEMENAME: "rooms"
 
 #Gulp-replace
 REPLACE: 

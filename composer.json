@@ -1,5 +1,5 @@
 {
-    "name": "rdrew/d8vre",
+    "name": "rdrew/roblib_room_reservations",
     "type": "drupal-theme",
     "authors": [
         {
@@ -15,6 +15,5 @@
     ],
 
     "require": {
-        "drupal/components": "^1.0"
     }
 }

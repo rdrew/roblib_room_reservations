@@ -1,6 +1,6 @@
 <?php
 
-function d8vre_preprocess_html(&$variables) {
+function rooms_preprocess_html(&$variables) {
   // Add information about the number of sidebars.
   if (!empty($variables['page']['sidebar_left']) && !empty($variables['page']['sidebar_right'])) {
     $variables['attributes']['class'][] = 'layout-two-sidebars';
