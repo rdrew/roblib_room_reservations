@@ -1,0 +1,32 @@
+name: d8vre
+type: theme
+description: 'Drupal 8 Theme upei vre'
+version: 1.0
+core_version_requirement: ^8 || ^9
+base theme: stable
+
+libraries:
+    - d8vre/global
+    - d8vre/fonts
+
+component-libraries:
+    components:
+        paths:
+            - components
+
+
+
+stylesheets-remove: modules/contrib/roblib_vre_footer/css/roblib_vre_footer.css
+
+regions:
+  topnav        : Top Navigation
+  header        : Header
+  menubar       : Menu Bar
+  sysmessages   : System Messages
+  breadcrumb    : Breadcrumb
+  content       : Content
+  sidebar_left  : Left Sidebar
+  sidebar_right : Right Sidebar
+  prefooter     : Pre-Footer
+  footer        : Footer
+  offcanvas     : Off Canvas (mobile menu)

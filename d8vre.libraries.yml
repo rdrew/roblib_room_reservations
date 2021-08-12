@@ -1,0 +1,17 @@
+global:
+  version: VERSION
+  css:
+    base:
+      dist/assets/css/app.css: {}
+      ./rosie.css: {}
+  js:
+    dist/assets/js/app.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+fonts:
+    css:
+        theme:
+            '//fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif': {type: external, minified: true}

@@ -1,0 +1,31 @@
+//@format
+.region-menubar {
+    @include flex-grid-row;
+}
+.menubar__wrapper {
+    background: $menubar-color;
+    min-height: 5px;
+    border-top: 1px solid darken($menubar-color, 10%);
+    border-bottom: 1px solid darken($menubar-color, 10%);
+    .menu--main {
+        @include show-for(medium);
+    }
+}
+.menu--main {
+    a {
+        color: $black2;
+    }
+    li {
+        background-color: $menubar-color;
+        transition: $button-transition;
+    }
+    li:hover {
+        background-color: darken($menubar-color, 10%);
+    }
+    .is-dropdown-submenu {
+        background: $menubar-color;
+        li:hover {
+            background: darken($menubar-color, 10%);
+        }
+    }
+}

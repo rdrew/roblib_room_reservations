@@ -1,0 +1,25 @@
+header {
+    background: $header-bg-color;
+    padding: $global-padding;
+    .site-search {
+        display: none;
+        @include breakpoint(medium) {
+            display: block;
+        }
+    }
+}
+.region-header {
+    //@include grid-row();
+    @include flex-grid-row();
+    justify-content: space-between;
+
+    .branding {
+        @extend .top-bar-left;
+    }
+    .site-search {
+        //@extend .top-bar-right;
+        //margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    }
+}
