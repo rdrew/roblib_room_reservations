@@ -1,4 +1,4 @@
-PROXY: "http://d9test.researchspaces.ca/"
+PROXY: "d9test.researchspaces.ca/"
 LOCALPROXY: "arma.dev"
 THEMENAME: "rooms"
 
