@@ -6,10 +6,12 @@ global:
       ./rosie.css: {}
   js:
     dist/assets/js/app.js: {}
+    roomres.js: {}
   dependencies:
     - core/drupal
     - core/jquery
     - core/jquery.once
+    - core/assets/vendor/jquery.ui/ui/disable-selection.js
 
 fonts:
     css:
